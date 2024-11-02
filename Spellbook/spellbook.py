@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS buku (
 conn.commit()
 
 print ("------------------------------------")
-print ("|<<<Selamat Datang Di Spell Book>>>|")
+print ("|<<<Selamat Datang Di SpellBook>>>|")
 print ("------------------------------------")
 
 def tambah_buku(nama_buku, genre, pengarang, penerbit):
@@ -68,7 +68,7 @@ def hapus_buku(id_buku):
 
 def menu():
     while True:
-        print("\n <<<<< Menu Spell Book >>>>>")
+        print("\n <<<<< Menu SpellBook >>>>>")
         print("<1> Tambah Buku")
         print("<2> Tampilkan Buku")
         print("<3> Cari Buku ")
@@ -84,7 +84,7 @@ def menu():
             pengarang = input("Masukkan pengarang buku: ")
             penerbit = input("Masukkan penerbit buku: ")
             while True:
-                pilihan = input("Apakah Anda ingin menyimpan (y/n)?: ").lower()
+                pilihan = input("Apakah Anda yakin ingin menyimpan (y/n)?: ").lower()
                 if pilihan == 'yes' or pilihan == 'y':
                     tambah_buku(nama_buku, genre, pengarang, penerbit)
                     print(f"\nBuku '{nama_buku}' berhasil ditambahkan!\n")
@@ -116,7 +116,7 @@ def menu():
         elif pilihan == '5':
             id_buku = int(input("Masukkan ID buku yang ingin dihapus: "))
             while True:
-                pilihan = input("Apakah Anda ingin menghapus (y/n)?: ").lower()
+                pilihan = input("Apakah Anda yakin ingin menghapus (y/n)?: ").lower()
                 if pilihan == 'yes' or pilihan == 'y':
                     hapus_buku(id_buku)
                     break
