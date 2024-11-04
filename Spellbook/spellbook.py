@@ -132,7 +132,7 @@ def menu():
             elif pilihan == 'no' or pilihan== 'n':
                 menu()
         else:
-            print("\nPilihan tidak valid. Pilih 'yes' atau 'no'")
+            print("\nPilihan tidak valid. Pilih opsi angka 1 - 6")
 
 if __name__ == '__main__':
     menu()
