@@ -1,5 +1,5 @@
 Kelompok 1
-- Revaldi Rifwanda             24//                (Projcet Manager)
+- Revaldi Rifwanda             24//SV/             (Project Manager)
 - Naufal Khairdzaky Hascaryo   24/539630/SV/24639  (Software Designer)
 - Muhammad Reihan Nasir        24/541387/SV/24902  (Programmer)
 - Hilman Amirul Haq            24/544609/SV/25472  (Quality Analyst)
