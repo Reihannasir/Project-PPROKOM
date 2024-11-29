@@ -35,10 +35,10 @@ def menu():
                 pilihan = input("Apakah Anda yakin ingin menyimpan (y/n)?: ").lower()
                 if pilihan == 'yes' or pilihan == 'y':
                     buku.tambah(nama_buku, genre, pengarang, penerbit)
-                    print(f"\nBuku '{nama_buku}' berhasil ditambahkan!\n")
                     break
                 elif pilihan == 'no' or pilihan== 'n':
                     menu()
+                    break
                 else:
                     print("\nPilihan tidak valid. Pilih 'yes' atau 'no'")
                     
