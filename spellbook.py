@@ -37,6 +37,7 @@ def menu():
                     buku.tambah(nama_buku, genre, pengarang, penerbit)
                     break
                 elif pilihan == 'no' or pilihan== 'n':
+                    print("Buku tidak berhasil ditambah!")
                     menu()
                     break
                 else:
